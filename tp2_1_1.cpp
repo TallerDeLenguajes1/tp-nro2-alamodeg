@@ -4,7 +4,7 @@
 #define M 5
 // OPCION NUMERO 1, BRANCH MASTER//
 int main(){
-	int f,c;
+	int f, c;
 	double matriz[N][M];
 
 	for(f = 0;f<N; f++){
