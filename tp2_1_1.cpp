@@ -9,7 +9,8 @@ int main(){
 
 	for(f = 0;f<N; f++){
 		for(c = 0;c<N; c++){
-			printf("%lf ", matriz[N][M]);
+			matriz[N][M]=rand()%10;
+			printf(" %.2lf ", matriz[N][M]);
 		}
 		printf("\n");
 	}
