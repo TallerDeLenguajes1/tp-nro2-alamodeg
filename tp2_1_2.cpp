@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define N 4
 #define M 5
-
+// OPCION NUMERO 2, SEGUNDA RAMA//
 int main(){
 	int f,c;
 	double matriz[N][M];
