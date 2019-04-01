@@ -10,7 +10,7 @@ int main(){
 	int COLUMNAS = 5 + rand() % ((15+1)-5);
 	int cont_pares = 0;
 	int *punt_pares;
-	matriz = (int*)malloc(FILAS*COLUMNAS*sizeof(int));
+	matriz = (int*)malloc(FILAS*sizeof(int));
 	punt_pares = (int*)malloc(FILAS*sizeof(int));
 	
 	//--------------CARGA Y ASIGNACION MATRIZ--------------//
@@ -21,7 +21,6 @@ int main(){
 	
 	puts("|-----------MATRIZ CARGADA CON PARES POR FILA-----------|");
 	for(int i=0;i<FILAS;i++){ 
-		
 		for(int j=0;j<COLUMNAS;j++){
 			printf("%d ",*(matriz+((i*COLUMNAS)+j)));
 			if ( *(matriz+((i*COLUMNAS)+j))%2==0){
